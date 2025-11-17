@@ -1,0 +1,45 @@
+body {
+    background: #f6f6f6;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    justify-items: center;
+}
+
+.menu-grid {
+    
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 10px;
+}
+
+.menu-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(40, 40, 50, 0.08);
+    width: 260px;
+    padding: 24px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.menu-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.menu-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #bfa056;
+    margin-bottom: 10px;
+}
+
+.menu-desc {
+    font-size: 0.95rem;
+    color: #6b6b6b;
+}
